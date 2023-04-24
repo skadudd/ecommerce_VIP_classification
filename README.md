@@ -1,5 +1,9 @@
+# 로그데이터를 활용한 VIP 고객 세그먼트 예측
+![Goog_GA_4_Hero_56a6d78e8a](https://user-images.githubusercontent.com/15994105/233963912-ddf41e58-7827-4ff1-8c23-857c26b64e46.png)
+
 ## TOC
 - [로그데이터를 활용한 VIP 고객 세그먼트 예측](#로그데이터를-활용한-vip-고객-세그먼트-예측)
+- [프로젝트 개요](프로젝트-개요)
   * [A. 데이터 소개](#a-데이터-소개)
   * [B. 목표 설정](b-목표-설정)
   * [C. 문제 정의 및 해결](#c-문제-정의-및-해결)
@@ -7,14 +11,12 @@
     + [TO-BE](#to-be)
     + [WRAP UP](#wrap-up)
   * [D. 결과](#d-결과)
-- [Deck](#deck)
+- [Deck of Project](#deck-of-project)
 - [Methods Used](#methods-used)
 - [Contributing Members](#contributing-members)
 - [Reference](#reference)
 
-## 로그데이터를 활용한 VIP 고객 세그먼트 예측
-![Goog_GA_4_Hero_56a6d78e8a](https://user-images.githubusercontent.com/15994105/233963912-ddf41e58-7827-4ff1-8c23-857c26b64e46.png)
-
+## 프로젝트 개요
 ### A. 데이터 소개
 본 프로젝트는 캐글 컴피티션 'Google Analytics Customer Revenue Prediction' 데이터셋을 활용하였습니다. 해당 컴피티션의 최종 목표는 각 고객의 로그변환된 매출을 예측하는 것입니다. 이커머스 데이터는 매출의 편차로 인한 데이터셋의 불균형이 존재합니다. 이는 정확한 매출 예측을 방해하므로, 주최 측에서 로그 변환된 매출을 요구하였습니다.
 하지만, 저희는 부정확한 매출 값 예측보다 매출 기여도가 높은 고객 세그먼트를 정확히 예측하는 것이 비즈니스에 큰 가치를 준다고 판단했습니다. 따라서, 해당 컴피티션의 데이터셋을 활용하되, 비즈니스적으로 더 활용도가 높은 새로운 목표를 설정하였습니다.
@@ -46,7 +48,8 @@
 이 VIP 세그먼트는 Test 데이터의 매출 81%를 기여합니다. \
 따라서 GoogleAnalytics의 로그 데이터만으로 파레토법칙에 의거한 VIP 세그먼트를 예측한다는 목표를 달성했습니다.
 
-## Deck
+## Deck of Project
+프로젝트를 정리한 PPT 자료입니다.\
 [Classify VIP segements with Ecommerce Log Data](https://drive.google.com/file/d/1lSFeUWyrIV9VeYH-AckUFrC4Baqo0RbD/view?usp=sharing)
 
 ## Methods Used
